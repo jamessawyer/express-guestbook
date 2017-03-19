@@ -1,0 +1,6 @@
+# 模块
+/node_modules
+
+# 调试文件
+*.log
+debug.log*

@@ -1,0 +1,20 @@
+<% include header %>
+<h2> Write a new Entry </h2>
+
+<form method="post" role="form">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" 
+        name="title" placeholder="ENTRY TITLE" required />
+    </div>
+    <div class="form-group">
+        <label for="content">ENTRY TEXT</label>
+        <textarea class="form-control" id="body" name="body"
+        placeholder="LOVE EXPRESS! IT IS A GREAT TOOL FOR BUILDING WEBSITES" rows="3"
+        requried></textarea>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="POST ENTRY" />
+    </div>
+</form>
+<% include footer %>
